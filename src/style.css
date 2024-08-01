@@ -1,10 +1,68 @@
 h1,
 h2,
 h3 {
-  color: rgb(176, 18, 18);
   font-family: Daniel;
 }
 
 body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url("../images/hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
   text-align: center;
+  padding: 200px 0;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 1;
+  margin: 30px 0;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: white;
+  text-decoration: none;
+  color: red;
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
+}
+
+@media (max-width: 800px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
 }
