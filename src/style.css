@@ -1,5 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #7a1515;
 }
 
 .container {
@@ -46,9 +47,9 @@ header a {
   display: inline-block;
 }
 
-img-responsive {
+.img-responsive {
   max-width: 100%;
-  background-size: cover;
+  display: block;
 }
 
 .grid {
@@ -64,8 +65,43 @@ img-responsive {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.grid-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background-color: #fff;
+  margin: 30px 0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 30px;
+}
+
+.btn {
+  display: block;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #b52222;
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 100px;
 }
@@ -74,10 +110,14 @@ main {
   background-color: #fff;
 }
 
+section.secondary {
+  background-color: lightgrey;
+}
+
 main h2 {
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1;
   letter-spacing: 5px;
   opacity: 0.3;
   color: #b52222;
@@ -89,6 +129,22 @@ main h3 {
   font-size: 40px;
   font-weight: 700;
   line-height: 1.5;
+  color: #b52222;
+  margin: 0;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #b52222;
+  margin: 0;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
   color: #b52222;
   margin: 0;
 }
