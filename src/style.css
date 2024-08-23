@@ -131,7 +131,7 @@ main h3 {
   font-weight: 700;
   line-height: 1.5;
   color: #b52222;
-  margin: 0;
+  margin: 0 auto;
 }
 
 h4 {
