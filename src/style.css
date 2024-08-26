@@ -64,6 +64,16 @@ header a {
   background-size: cover;
 }
 
+.about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url("../images/tours.png");
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  height: fit-content;
+  background-size: cover;
+}
+
 .img-responsive {
   max-width: 100%;
   display: block;
@@ -128,6 +138,10 @@ section {
 
 main {
   background-color: #fff;
+}
+
+section.about-content {
+  background-color: #fefefe;
 }
 
 section.secondary {
