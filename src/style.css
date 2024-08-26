@@ -8,6 +8,13 @@ body {
   margin: 0 auto;
   border-radius: 10px;
 }
+.logo {
+  max-height: 80px;
+}
+
+.navbar {
+  background-color: #fefefe;
+}
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
@@ -47,6 +54,15 @@ header a {
   margin-top: 32px;
   display: inline-block;
 }
+.tours {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url("../images/tours.png");
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  height: fit-content;
+  background-size: cover;
+}
 
 .img-responsive {
   max-width: 100%;
@@ -71,8 +87,11 @@ header a {
 }
 
 .card {
-  background-color: #fff;
   margin: 30px 0;
+}
+
+.card-header {
+  background-size: cover;
 }
 
 .card-body {
