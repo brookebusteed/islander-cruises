@@ -74,6 +74,16 @@ header a {
   background-size: cover;
 }
 
+.hire-gear {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url("../images/kayak.png");
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  height: fit-content;
+  background-size: cover;
+}
+
 .img-responsive {
   max-width: 100%;
   display: block;
