@@ -144,6 +144,10 @@ header a {
   text-align: center;
 }
 
+section.tour-grid {
+  background-color: #fefefe;
+}
+
 section {
   max-width: 100%;
   margin: 0 auto;
