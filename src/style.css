@@ -54,6 +54,17 @@ header a {
   margin-top: 32px;
   display: inline-block;
 }
+
+.about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url("../images/tours.png");
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  height: fit-content;
+  background-size: cover;
+}
+
 .tours {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
     url("../images/tours.png");
@@ -64,14 +75,34 @@ header a {
   background-size: cover;
 }
 
-.about {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
-    url("../images/tours.png");
-  background-repeat: no-repeat;
-  color: white;
+.tours h2 {
+  text-align: left;
+}
+
+.tours a {
+  font-size: 14px;
   text-align: center;
-  height: fit-content;
-  background-size: cover;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: white;
+  text-decoration: none;
+  color: #337069;
+  padding: 10px 32px;
+  margin-top: 32px;
+  display: inline-block;
+}
+
+.cancel h3 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 30px;
+}
+
+.cancel p {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .hire-gear {
