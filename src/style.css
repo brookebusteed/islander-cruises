@@ -53,168 +53,11 @@ header a {
   margin-top: 32px;
   display: inline-block;
 }
-.contact {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
-    url("../images/contact.png");
-  background-repeat: no-repeat;
-  color: white;
-  text-align: center;
-  height: fit-content;
-  background-size: cover;
-}
-.address {
-  list-style: none;
-}
-
-.about {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
-    url("../images/about.png");
-  background-repeat: no-repeat;
-  color: white;
-  text-align: center;
-  height: fit-content;
-  background-size: cover;
-}
-
-.tours {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
-    url("../images/tours.png");
-  background-repeat: no-repeat;
-  color: white;
-  text-align: center;
-  height: fit-content;
-  background-size: cover;
-}
-
-.tours h1 {
-  text-align: left;
-}
-
-.tours a {
-  font-size: 14px;
-  text-align: center;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  background-color: white;
-  text-decoration: none;
-  color: #337069;
-  padding: 10px 32px;
-  margin-top: 32px;
-  display: inline-block;
-}
-h6 {
-  color: #aa2c25;
-}
-
-.card-title {
-  color: #aa2c25;
-}
-.card-text {
-  color: #2a2a2a;
-}
-
-.cancel {
-  padding: 50px;
-}
-
-.cancel h3 {
-  text-align: center;
-  font-weight: 200;
-  font-size: 40px;
-  line-height: 1.5;
-  margin: 30px;
-  color: #aa2c25;
-}
-
-.cancel p {
-  text-align: center;
-  margin-bottom: 30px;
-  color: #aa2c25;
-}
-
-.hire-gear {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
-    url("../images/kayak.png");
-  background-repeat: no-repeat;
-  color: white;
-  text-align: center;
-  height: fit-content;
-  background-size: cover;
-}
 
 .img-responsive {
   max-width: 100%;
   display: block;
   border-radius: 4px;
-}
-
-.grid {
-  display: grid;
-  grid-gap: 64px;
-}
-
-.grid-2-columns {
-  grid-template-columns: 1fr 1fr;
-}
-
-.grid-3-columns {
-  grid-template-columns: 1fr 2fr 2fr;
-}
-
-.grid-3 {
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.card {
-  margin: 30px 0;
-  border: none;
-}
-
-.card-header {
-  background-size: cover;
-}
-
-.about-card {
-  color: white;
-  background-color: #b52222;
-  max-width: 75%;
-  padding: 25px;
-  margin: 10px 200px;
-  border-radius: 8px;
-}
-.about-card h5 {
-  color: white;
-  padding: 5px;
-}
-
-.about-card p {
-  color: white;
-}
-
-.card-body {
-  padding: 30px;
-}
-
-.card-footer {
-  padding: 30px;
-}
-
-.btn {
-  display: block;
-  color: #fff;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  padding: 16px;
-  background-color: #b52222;
-  text-decoration: none;
-}
-
-.text-center {
-  text-align: center;
 }
 
 section {
@@ -273,6 +116,166 @@ main p {
   color: #2a2a2a;
   opacity: 0.7;
 }
+
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.grid-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  margin: 30px 0;
+  border: none;
+}
+
+.card-header {
+  background-size: cover;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 30px;
+}
+
+.tours {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url("../images/tours.png");
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  height: fit-content;
+  background-size: cover;
+}
+
+.tours h1 {
+  text-align: left;
+}
+
+.tours a {
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: white;
+  text-decoration: none;
+  color: #337069;
+  padding: 10px 32px;
+  margin-top: 32px;
+  display: inline-block;
+}
+h6 {
+  color: #aa2c25;
+}
+
+.card-title {
+  color: #aa2c25;
+}
+.card-text {
+  color: #2a2a2a;
+}
+
+.contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url("../images/contact.png");
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  height: fit-content;
+  background-size: cover;
+}
+
+.address {
+  list-style: none;
+}
+
+.cancel {
+  padding: 50px;
+}
+
+.cancel h3 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 30px;
+  color: #aa2c25;
+}
+
+.cancel p {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #aa2c25;
+}
+
+.hire-gear {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url("../images/gear.png");
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  height: fit-content;
+  background-size: cover;
+}
+
+.about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url("../images/about.png");
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  height: fit-content;
+  background-size: cover;
+}
+
+.about-card {
+  color: white;
+  background-color: #b52222;
+  max-width: 75%;
+  padding: 25px;
+  margin: 10px 200px;
+  border-radius: 8px;
+}
+.about-card h5 {
+  color: white;
+  padding: 5px;
+}
+
+.about-card p {
+  color: white;
+}
+
+.btn {
+  display: block;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #b52222;
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .instagram-embed {
   margin: 30px 0;
 }
