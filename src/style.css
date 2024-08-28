@@ -53,6 +53,18 @@ header a {
   margin-top: 32px;
   display: inline-block;
 }
+.contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url("../images/contact.png");
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  height: fit-content;
+  background-size: cover;
+}
+.address {
+  list-style: none;
+}
 
 .about {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
