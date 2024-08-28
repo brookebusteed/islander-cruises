@@ -166,12 +166,17 @@ h6 {
   color: white;
   background-color: #b52222;
   max-width: 75%;
-  padding: 10px;
+  padding: 25px;
   margin: 10px 200px;
+  border-radius: 8px;
 }
 .about-card h5 {
   color: white;
   padding: 5px;
+}
+
+.about-card p {
+  color: white;
 }
 
 .card-body {
@@ -208,14 +213,6 @@ section {
 
 main {
   background-color: #fff;
-}
-
-section.about-content {
-  background-color: #fefefe;
-}
-
-section.about-islander {
-  background-color: #fefefe;
 }
 
 section.secondary {
@@ -261,7 +258,7 @@ main p {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  color: #b52222;
+  color: #2a2a2a;
   opacity: 0.7;
 }
 .instagram-embed {
