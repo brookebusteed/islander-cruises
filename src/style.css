@@ -146,9 +146,9 @@ main p {
 .card-body {
   padding: 30px;
 }
-
 .card-footer {
-  padding: 30px;
+  background-color: transparent;
+  padding: 15px;
 }
 
 .tours {
