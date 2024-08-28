@@ -56,7 +56,7 @@ header a {
 
 .about {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
-    url("../images/tours.png");
+    url("../images/about.png");
   background-repeat: no-repeat;
   color: white;
   text-align: center;
@@ -74,7 +74,7 @@ header a {
   background-size: cover;
 }
 
-.tours h2 {
+.tours h1 {
   text-align: left;
 }
 
@@ -90,6 +90,20 @@ header a {
   margin-top: 32px;
   display: inline-block;
 }
+h6 {
+  color: #aa2c25;
+}
+
+.card-title {
+  color: #aa2c25;
+}
+.card-text {
+  color: #2a2a2a;
+}
+
+.cancel {
+  padding: 50px;
+}
 
 .cancel h3 {
   text-align: center;
@@ -97,11 +111,13 @@ header a {
   font-size: 40px;
   line-height: 1.5;
   margin: 30px;
+  color: #aa2c25;
 }
 
 .cancel p {
   text-align: center;
   margin-bottom: 30px;
+  color: #aa2c25;
 }
 
 .hire-gear {
@@ -182,10 +198,6 @@ header a {
 
 .text-center {
   text-align: center;
-}
-
-section.tour-grid {
-  background-color: #fefefe;
 }
 
 section {
