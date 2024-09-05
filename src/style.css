@@ -197,6 +197,10 @@ main p {
 
 .why li {
   margin: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #2a2a2a;
+  opacity: 0.7;
 }
 
 .card-title {
@@ -222,6 +226,7 @@ main p {
   color: white;
   padding: 25px;
   border-radius: 8px;
+  text-align: center;
 }
 
 .cancel h3 {
