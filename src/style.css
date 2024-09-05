@@ -1,5 +1,10 @@
+:root {
+  --default-font-family: "Questrial", Arial, Helvetica, sans-serif;
+  --secondary-font-family: "Daniel", Arial, Helvetica, sans-serif;
+}
+
 body {
-  font-family: "Daniel", Arial, Helvetica, sans-serif;
+  font-family: "Questrial", Arial, Helvetica, sans-serif;
   background-color: #b52222;
 }
 
@@ -13,6 +18,12 @@ body {
 
 .navbar {
   background-color: #fefefe;
+  font-family: var(--secondary-font-family);
+  text-transform: uppercase;
+}
+
+.nav-link {
+  font-weight: 500;
 }
 
 header {
@@ -26,23 +37,24 @@ header {
 }
 
 header h1 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 80px;
   line-height: 1;
-  margin: 30px 0;
+  font-family: var(--secondary-font-family);
+  margin: 20px 0;
 }
 
 header h2 {
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 1.5;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 1;
   margin: 0;
 }
 
 header a {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.5;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1;
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -78,7 +90,7 @@ main h2 {
   font-weight: 700;
   font-size: 16px;
   line-height: 1;
-  letter-spacing: 5px;
+  letter-spacing: 10px;
   opacity: 0.3;
   color: #b52222;
   margin: 0;
@@ -139,20 +151,12 @@ main p {
   border: none;
 }
 
-.card-header {
-  background-size: cover;
-}
-
 .card-body {
   padding: 30px;
 }
-.card-footer {
-  background-color: transparent;
-  padding: 15px;
-}
 
 .card-img-top {
-  background-size: contain;
+  background-size: cover;
 }
 
 .tours {
@@ -196,6 +200,7 @@ h6 {
 
 .card-title {
   color: #aa2c25;
+  font-family: var(--secondary-font-family);
 }
 .card-text {
   color: #2a2a2a;
