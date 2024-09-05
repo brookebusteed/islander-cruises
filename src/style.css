@@ -202,8 +202,11 @@ h6 {
   list-style: none;
 }
 
-.cancel {
-  padding: 50px;
+.cancel-card {
+  background-color: #aa2c25;
+  color: white;
+  padding: 25px;
+  border-radius: 8px;
 }
 
 .cancel h3 {
@@ -212,13 +215,13 @@ h6 {
   font-size: 40px;
   line-height: 1.5;
   margin: 30px;
-  color: #aa2c25;
+  color: white;
 }
 
 .cancel p {
   text-align: center;
   margin-bottom: 30px;
-  color: #aa2c25;
+  color: white;
 }
 
 .hire-gear {
