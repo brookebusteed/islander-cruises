@@ -185,6 +185,15 @@ h6 {
   color: #aa2c25;
 }
 
+.why {
+  list-style: none;
+  text-align: center;
+}
+
+.why li {
+  margin: 15px;
+}
+
 .card-title {
   color: #aa2c25;
 }
