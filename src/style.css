@@ -44,10 +44,10 @@ header {
   background-repeat: no-repeat;
   color: white;
   text-align: center;
-  padding: 200px 0;
+  padding: 250px 0;
 }
 
-header h1 {
+h1 {
   font-weight: 600;
   font-size: 80px;
   line-height: 1;
@@ -132,6 +132,12 @@ h5 {
   margin: 0;
 }
 
+h6 {
+  color: #aa2c25;
+  font-family: var(--default-font-family);
+  letter-spacing: 2px;
+}
+
 main p {
   font-size: 16px;
   font-weight: 400;
@@ -182,24 +188,6 @@ main p {
 
 .tours h1 {
   text-align: left;
-}
-
-.tours a {
-  font-size: 14px;
-  text-align: center;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  background-color: white;
-  text-decoration: none;
-  color: #337069;
-  padding: 10px 32px;
-  margin-top: 32px;
-  display: inline-block;
-}
-h6 {
-  color: #aa2c25;
-  font-family: var(--default-font-family);
-  letter-spacing: 2px;
 }
 
 .why {
@@ -354,7 +342,7 @@ footer a {
   header {
     padding: 60px 0;
   }
-  header h1 {
+  h1 {
     font-size: 48px;
   }
   header h2 {
