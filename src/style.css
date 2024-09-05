@@ -151,6 +151,10 @@ main p {
   padding: 15px;
 }
 
+.card-img-top {
+  background-size: contain;
+}
+
 .tours {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
     url("../images/tours.png");
