@@ -82,6 +82,10 @@ header a {
   border-radius: 4px;
 }
 
+img {
+  border-radius: 5px;
+}
+
 section {
   max-width: 100%;
   margin: 0 auto;
@@ -377,9 +381,9 @@ footer a {
   .about-card p {
     font-size: 10px;
   }
-
   .about-card {
-    padding: 0;
+    padding: 5px;
     margin: 0;
+    text-align: center;
   }
 }
