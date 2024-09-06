@@ -308,6 +308,10 @@ main p {
   background-color: #fff;
 }
 
+a {
+  color: #b52222;
+}
+
 .text-center {
   text-align: center;
 }
@@ -379,7 +383,7 @@ footer a {
     font-size: 18px;
   }
   .about-card p {
-    font-size: 10px;
+    font-size: 11px;
   }
   .about-card {
     padding: 5px;
