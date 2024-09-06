@@ -1,12 +1,11 @@
 :root {
   --default-font-family: "Questrial", Arial, Helvetica, sans-serif;
-  --secondary-font-family: "Daniel", Arial, Helvetica, sans-serif;
+  --secondary-font-family: Daniel, sans-serif;
 }
 
 @font-face {
-  font-family: "Daniel";
-  src: local("Daniel"), url("danielbd.ttf") format("truetype"),
-    url("daniel.ttf") format("truetype"), url("danielbk.ttf") format("truetype");
+  font-family: Daniel;
+  src: url("../fonts/daniel.ttf");
 }
 
 body {
