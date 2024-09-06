@@ -299,6 +299,11 @@ main p {
   margin-top: 30px;
 }
 
+.btn.learn {
+  color: #aa2c25;
+  background-color: #fff;
+}
+
 .text-center {
   text-align: center;
 }
@@ -366,4 +371,19 @@ footer a {
   section {
     padding: 30px;
   }
+  .about-card h5 {
+    font-size: 18px;
+  }
+  .about-card p {
+    font-size: 10px;
+  }
+}
+
+.about-card {
+  color: white;
+  background-color: #b52222;
+  max-width: 75%;
+  padding: 25px;
+  margin: 10px 200px;
+  border-radius: 8px;
 }
