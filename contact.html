@@ -17,6 +17,12 @@
     />
     <link rel="stylesheet" href="src/style.css" />
     <title>Islander Cruises - Contact Us</title>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("39US8FeEkHu-WpzyK");
+      })();
+    </script>
   </head>
   <body>
     <div class="container">
@@ -63,25 +69,23 @@
         <h1>Contact Us</h1>
       </section>
       <main>
-        <section class="contact-form">
-          <form action="/my-handling-form-page" method="POST">
-            <ul>
-              <li>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name" />
-              </li>
-              <li>
-                <label for="mail">Email:</label>
-                <input type="email" id="mail" name="user_email" />
-              </li>
-              <li>
-                <label for="message">Message:</label>
-                <textarea id="message" name="user_message"></textarea>
-              </li>
-              <li class="button">
-                <button type="sumbit">Send Your Message</button>
-              </li>
-            </ul>
+        <section>
+          <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <br />
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <br />
+            <br />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br />
+            <br />
+
+            <button type="sumbit">Send</button>
           </form>
         </section>
         <section>
@@ -96,7 +100,7 @@
             enquiry you can contact us directly by phone or email.
           </p>
           <p>Phone: <a href="tel:+61265632898">02 6563 2898</a></p>
-          <p>Phone: <a href="tel:+61265632021">02 6563 2021</a></p>
+          <p>After hours Phone: <a href="tel:+61265632021">02 6563 2021</a></p>
 
           <p>
             Email:
@@ -175,4 +179,29 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"
   ></script>
+  <script type="text/javascript">
+    const form = document.getElementById("contact-form");
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const message = document.getElementById("message").value;
+
+      emailjs
+        .send("service_gfmp6ef", "template_6s7u7xs", {
+          name: name,
+          email: email,
+          message: message,
+        })
+        .then(
+          function (response) {
+            alert("Message sent successfully!");
+          },
+          function (error) {
+            alert("Failed to send the message. Please try again later.");
+          }
+        );
+    });
+  </script>
 </html>
