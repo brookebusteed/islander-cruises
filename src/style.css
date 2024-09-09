@@ -10,7 +10,7 @@
 
 body {
   font-family: var(--default-font-family);
-  background-color: #b52222;
+  background-color: rgba(181, 34, 34, 0.9);
 }
 .questrial-regular {
   font-family: "Questrial", sans-serif;
