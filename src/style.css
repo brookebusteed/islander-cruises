@@ -1,6 +1,7 @@
 :root {
   --default-font-family: "Questrial", Arial, Helvetica, sans-serif;
   --secondary-font-family: Daniel, sans-serif;
+  --primary-color: #b52222;
 }
 
 @font-face {
@@ -106,7 +107,7 @@ main h2 {
   line-height: 1;
   letter-spacing: 10px;
   opacity: 0.3;
-  color: #b52222;
+  color: var(--primary-color);
   margin: 0;
   text-transform: uppercase;
 }
@@ -115,7 +116,7 @@ main h3 {
   font-size: 40px;
   font-weight: 700;
   line-height: 1.5;
-  color: #b52222;
+  color: var(--primary-color);
   margin: 0 auto;
 }
 
@@ -123,7 +124,7 @@ h4 {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.5;
-  color: #b52222;
+  color: var(--primary-color);
   margin: 0;
 }
 
@@ -131,7 +132,7 @@ h5 {
   font-weight: 700;
   font-size: 24px;
   line-height: 24px;
-  color: #b52222;
+  color: var(--primary-color);
   margin: 0;
 }
 
@@ -210,6 +211,15 @@ main p {
   color: #aa2c25;
   font-family: var(--default-font-family);
 }
+
+.cancel-card {
+  background-color: #aa2c25;
+  color: white;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+}
+
 .contact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
     url("../images/contact.png");
@@ -224,18 +234,36 @@ main p {
   list-style: none;
 }
 
-.cancel-card {
-  background-color: #aa2c25;
-  color: white;
-  padding: 25px;
-  border-radius: 8px;
-  text-align: center;
+form {
+  background-color: #fefefe;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
 }
 
 .embed {
   width: 100%;
   aspect-ratio: 1 /1;
 }
+
 .cancel h3 {
   text-align: center;
   font-weight: 200;
@@ -273,7 +301,7 @@ main p {
 
 .about-card {
   color: white;
-  background-color: #b52222;
+  background-color: var(--primary-color);
   max-width: 75%;
   padding: 25px;
   margin: 10px 200px;
@@ -298,7 +326,7 @@ main p {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #b52222;
+  background-color: var(--primary-color);
   text-decoration: none;
   margin-top: 30px;
 }
@@ -309,7 +337,7 @@ main p {
 }
 
 a {
-  color: #b52222;
+  color: var(--primary-color);
 }
 
 .text-center {
