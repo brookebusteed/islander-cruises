@@ -87,6 +87,16 @@ img {
   border-radius: 5px;
 }
 
+.winter-banner {
+  background-color: #fefefe;
+  color: #2a2a2a;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  font-size: 22px;
+}
+
 section {
   max-width: 100%;
   margin: 0 auto;
@@ -444,5 +454,9 @@ footer a {
     text-align: center;
     padding: 0;
     margin: 0 auto;
+  }
+  .winter-banner {
+    padding: 5;
+    font-size: 14px;
   }
 }
