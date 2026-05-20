@@ -38,7 +38,8 @@ body {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
     url("../images/hero.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -89,7 +90,7 @@ img {
 
 .winter-banner {
   background-color: #fefefe;
-  color: #2a2a2a;
+  color: #b52222;
   max-width: 100%;
   margin: 0 auto;
   padding: 30px;
@@ -191,7 +192,8 @@ main p {
 }
 
 .tours {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
     url("../images/tours.png");
   background-repeat: no-repeat;
   color: white;
@@ -231,7 +233,8 @@ main p {
 }
 
 .contact {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
     url("../images/contact.png");
   background-repeat: no-repeat;
   color: white;
@@ -316,7 +319,8 @@ button:hover {
 }
 
 .hire-gear {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
     url("../images/gear.png");
   background-repeat: no-repeat;
   color: white;
@@ -326,7 +330,8 @@ button:hover {
 }
 
 .about {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
     url("../images/about.png");
   background-repeat: no-repeat;
   color: white;
@@ -381,10 +386,8 @@ a {
 
 footer {
   color: #fff;
-  background-image: linear-gradient(
-      rgba(125, 70, 70, 0.9),
-      rgba(125, 70, 70, 0.9)
-    ),
+  background-image:
+    linear-gradient(rgba(125, 70, 70, 0.9), rgba(125, 70, 70, 0.9)),
     url("../images/hero.png");
   background-repeat: no-repeat;
   background-size: cover;
